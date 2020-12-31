@@ -1,0 +1,4 @@
+socialmedialinks.page:
+  title: 'social media links'
+  route_name: system.admin_config_ui
+  menu_name: socialmedialinks

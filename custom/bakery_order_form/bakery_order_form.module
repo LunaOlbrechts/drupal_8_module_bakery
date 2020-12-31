@@ -1,0 +1,27 @@
+<?php 
+
+/**
+ * Implements hook_theme().
+ */
+
+function bakery_order_form_theme($existing, $type, $theme, $path){
+    $type_order = 0;
+    $kind_of_cake = 0;
+    $amount_of_ronde_rozijnenkoek = 0;
+    $amount_of_croisant = 0;
+    $amount_of_chocoladebroodje = 0;
+    $amount_of_carree_confituur = 0;
+
+    return[
+        'bakery_order' =>[
+            'variables' => [
+                'type_order' => $type_order,
+                'kind_of_cake' => $kind_of_cake,
+                'amount_of_ronde_rozijnenkoek' => $amount_of_ronde_rozijnenkoek,
+                'amount_of_croisant' => $amount_of_croisant,
+                'amount_of_chocoladebroodje' => $amount_of_chocoladebroodje,
+                'amount_of_carree_confituur' => $amount_of_carree_confituur, 
+            ],
+        ],
+    ];
+}

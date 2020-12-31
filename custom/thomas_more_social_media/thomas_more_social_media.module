@@ -1,0 +1,26 @@
+<?php 
+
+/**
+ * Implements hook_theme().
+ */
+
+function thomas_more_social_media_theme(){
+    $facebookcount = 0;
+    $twitter_count = 0;
+    $google_plus_count = 0;
+    $linkedin_count = 0;
+    $foursquare_count = 0;
+
+    return[
+        'social-media' =>[
+            'variables' => [
+                'facebookurl' => NULL,
+                'facebookcount' => $facebookcount,
+                'twitter_count' => $twitter_count,
+                'google_plus_count' => $google_plus_count,
+                'linkedin_count' => $linkedin_count,
+                'foursquare_count' => $foursquare_count, 
+            ],
+        ],
+    ];
+}

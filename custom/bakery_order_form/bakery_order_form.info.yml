@@ -1,0 +1,6 @@
+name: bakery_order_form
+type: module
+description: 'bakery order module'
+core_version_requirement: ^8.8
+package: Thomas More
+

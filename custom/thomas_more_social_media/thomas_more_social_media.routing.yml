@@ -1,0 +1,6 @@
+thomas_more_social_media.settings.name: 
+  path: '/admin/config/user-interface/thomas-more-social-media/settings'
+  defaults: 
+    _form: '\Drupal\thomas_more_social_media\Form\settingsForm'
+  requirements: 
+    _permission: 'access administration pages'

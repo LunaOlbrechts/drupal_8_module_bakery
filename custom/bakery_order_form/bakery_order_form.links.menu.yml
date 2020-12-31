@@ -1,0 +1,4 @@
+orderform.page:
+  title: 'order form'
+  route_name: system.admin_config_ui
+  menu_name: orderform
