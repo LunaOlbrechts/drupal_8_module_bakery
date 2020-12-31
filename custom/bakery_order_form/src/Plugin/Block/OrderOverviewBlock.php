@@ -4,7 +4,7 @@ namespace Drupal\bakery_order_form\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 
 /**
- * Provides a 'Bakery order form block'
+ * Provides a 'Bakery order overview block'
  * 
  * @Block(
  *   id = "bakery_order_overview_block",
